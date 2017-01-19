@@ -1,0 +1,19 @@
+body{
+    background - color : white;
+}
+
+h1{
+font-family: arial;
+color: yellow;
+margin-left: 200px;
+background: lightgray;
+}
+
+div {
+font-family: arial;
+-webit-column-count: 3; /*chrome,safari,opera*/
+-moz-column-count: 3; /*firefox*/
+column-count: 3;
+-webit-column-gap:50px; /*chrome,safari,opera*/
+-moz-column-gap: 50px; /*firefox*/
+}
