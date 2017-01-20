@@ -1,0 +1,98 @@
+body{
+    background - color : lightblue;
+	height: 100%;
+	margin: 0;
+    Text-align: left;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	width: 100%;
+}
+
+h1{
+    font-family: Segoe Script, peciva, reenie beanie;
+    color: antiquewhite;
+    margin-left: 00px;
+    Text-align: center;
+    font-size: 80px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/bg.jpg");
+    background-size: cover;
+    padding : 100px;
+    margin : 0px;
+}
+
+.page-description {
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 5px solid purple;
+  text-align: center;
+  font-family: Segoe Script, peciva, reenie beanie;
+  color: purple;    
+  padding : 30px;
+  background-color: lightgreen
+        
+}
+
+p {
+    text-align: justify;
+}
+
+#contain{
+     background-color:greenyellow;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+#columns {
+    background-color: orangered;
+    -webit-column-count: 3; /*chrome,safari,opera*/
+    -moz-column-count: 3; /*firefox*/
+    column-count: 3;
+    -webit-column-gap:50px; /*chrome,safari,opera*/
+    -moz-column-gap: 50px; /*firefox*/
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 0px solid #000;
+    text-align: center;
+    width : 100%;  
+    padding: 50px;
+    margin: 10;
+    background-color: blue;
+}
+#columns .left-col {
+    width : 30%    
+    padding:10px;
+    background-color: red;  
+    }
+
+
+#columns .mid-col{
+    width : 30%
+    padding: 20px;
+    background-color: yellow;
+}
+
+#columns .right-col{
+    width : 30%
+    padding: 20px;
+    background-color: lawngreen;
+}
+nav{
+    background-color: whitesmoke;
+    display:inline;
+}
+
+nav li{
+    margin: ; 50;
+    padding: :0 20px;
+    background-color: whitesmoke;
+    display:inline;
+}
+.footer {
+    margin:center;
+    font-size:  30px;
+    padding: 8px 18px;
+    border: 1px solid #204156;  
+}
