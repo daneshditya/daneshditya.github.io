@@ -58,6 +58,7 @@ h2 {
     background-color: white;
 }
 #columns .left-col {
+<<<<<<< HEAD
     float: left; 
     width: 30%; 
     height: 400px; 
@@ -66,10 +67,16 @@ h2 {
     padding: 10px;
     display: flex;
     flex-wrap:wrap;
+=======
+    width : 30%    
+    padding:0px;
+    background-color: red;  
+>>>>>>> origin/master
     }
 
 
 #columns .mid-col{
+<<<<<<< HEAD
     float: left; 
     width: 30%; 
     height: 400px; 
@@ -91,6 +98,17 @@ h2 {
 
 #right-col .img-circle {
     border-radius: 50%;
+=======
+    width : 30%
+    padding: 0px;
+    background-color: yellow;
+}
+
+#columns .right-col{
+    width : 30%
+    padding: 0px;
+    background-color: lawngreen;
+>>>>>>> origin/master
 }
 
 nav{
