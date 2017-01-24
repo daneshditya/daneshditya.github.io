@@ -35,18 +35,10 @@ h1{
         
 }
 
-p {
-    text-align: justify;
-}
-
 #container{
     width:65%;margin;20px auto;
     background-color:white;
     font-family:monda;sans-serif;
-}
-
-h2 {
-	font-size: 25px;
 }
 
 #columns {
@@ -58,7 +50,6 @@ h2 {
     background-color: white;
 }
 #columns .left-col {
-<<<<<<< HEAD
     float: left; 
     width: 30%; 
     height: 400px; 
@@ -67,16 +58,14 @@ h2 {
     padding: 10px;
     display: flex;
     flex-wrap:wrap;
-=======
     width : 30%    
     padding:0px;
     background-color: red;  
->>>>>>> origin/master
+
     }
 
 
-#columns .mid-col{
-<<<<<<< HEAD
+#columns .mid-col {
     float: left; 
     width: 30%; 
     height: 400px; 
@@ -98,17 +87,9 @@ h2 {
 
 #right-col .img-circle {
     border-radius: 50%;
-=======
     width : 30%
     padding: 0px;
-    background-color: yellow;
-}
-
-#columns .right-col{
-    width : 30%
-    padding: 0px;
-    background-color: lawngreen;
->>>>>>> origin/master
+    background-color: white;
 }
 
 nav{
@@ -122,6 +103,10 @@ nav li{
     background-color: whitesmoke;
     display:inline;
 }
+
+.contact {
+}
+
 .footer {
     margin:center;
     font-size:  30px;
