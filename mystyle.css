@@ -1,5 +1,5 @@
 body{
-    background - color : lightblue;
+    background - color : white;
 	height: 100%;
 	margin: 0;
     Text-align: left;
@@ -8,15 +8,14 @@ body{
 }
 
 h1{
-    font-family: Segoe Script, peciva, reenie beanie;
-    color: antiquewhite;
-    margin-left: 00px;
+    font-family: font-family: 'Sacramento', cursive;
+    color: yellow;
     Text-align: center;
-    font-size: 80px;
-    background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/bg.jpg");
+    font-size: 40px;
+    background-image:url("https://farm1.staticflickr.com/573/32112878350_bc300abb15_o_d.jpg");
     background-size: cover;
-    padding : 100px;
-    margin : 0px;
+    padding : 160px;
+    margin : 10px;
 }
 
 .page-description {
