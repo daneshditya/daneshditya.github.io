@@ -1,12 +1,12 @@
 html,body{
-    background - color : white;
+    	background - color : white;
 	height: 100%;
-    width: 100%;
+    	width: 100%;
 	Display: flex;
-    flex-direction: column;
-    Text-align: center;
-    font-family: monda,Trebuchet MS, Helvetica, sans-serif;
-    line-height: 1.5;
+    	flex-direction: column;
+    	Text-align: center;
+    	font-family: monda,Trebuchet MS, Helvetica, sans-serif;
+    	line-height: 1.5;
 	
 }
 
@@ -36,7 +36,8 @@ h1{
 }
 
 .container{
-    width:95%;margin;20px auto;
+    width:95%;
+    margin;20px auto;
     background-color:white;
     font-family:monda;sans-serif;
 }
@@ -50,6 +51,7 @@ h1{
     column-gap: 10px;	
     background-color: white;
 }
+
 #columns .left-col {
     float: left; 
     width: 30%; 
@@ -58,9 +60,9 @@ h1{
     margin: 10;
     padding: 10px;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     width : 30%    
-    padding:0px;
+    padding:10px;
     background-color: red;  
 
     }
@@ -73,7 +75,7 @@ h1{
     outline: 0px solid red;
     padding: 10px;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
 #columns .right-col{
