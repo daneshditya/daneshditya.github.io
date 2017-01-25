@@ -35,7 +35,7 @@ h1{
         
 }
 
-#container{
+.container{
     width:65%;margin;20px auto;
     background-color:white;
     font-family:monda;sans-serif;
