@@ -47,6 +47,7 @@ h1{
     text-align: justify;
     width : 95%;  
     padding: 30px;
+    column-gap: 10px;	
     background-color: white;
 }
 #columns .left-col {
@@ -85,12 +86,8 @@ h1{
     flex-wrap:wrap;
 }
 
-#right-col .img-circle {
-    border-radius: 50%;
-    width : 30%
-    padding: 0px;
-    background-color: white;
-}
+
+
 
 nav{
     background-color: whitesmoke;
