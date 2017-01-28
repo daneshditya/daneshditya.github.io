@@ -1,0 +1,52 @@
+html,body{
+    background - color : white;
+	height: 100%;
+    width: 100%;
+	Display: flex;
+    flex-direction: column;
+    Text-align: center;
+    font-family: monda,Trebuchet MS, Helvetica, sans-serif;
+    line-height: 1.5;
+	
+}
+
+h1{
+    font-family:Sacramento; sans-serif;
+    color: yellow;
+    Text-align: center;
+    font-size: 60px;
+    padding : 160px;
+    margin : 10px;
+}
+
+.page-description {
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 0px solid green;
+  text-align: center;
+  font-family:arsenal;sans-serif;
+  font-size: 25px;    
+  color:green; 
+  padding : 30px;
+  background-color: white;
+        
+}
+
+.container {
+    
+    column-count: 3;
+    column-gap: 40px;
+    column-width: 100px;
+    height:100px;
+    
+}
+
+.narasi {
+    column-count: 3;
+    column-gap: 40px;
+    column-width: 100px;
+    min-height: inherit;
+    
+}
+
