@@ -1,12 +1,12 @@
 html,body{
-    background - color : white;
+    	background - color : white;
 	height: 100%;
-    width: 100%;
+    	width: 100%;
 	Display: flex;
-    flex-direction: column;
-    Text-align: center;
-    font-family: monda,Trebuchet MS, Helvetica, sans-serif;
-    line-height: 1.5;
+    	flex-direction: column;
+    	Text-align: center;
+    	font-family: monda,Trebuchet MS, Helvetica, sans-serif;
+    	line-height: 1.5;
 	
 }
 
@@ -36,8 +36,13 @@ h1{
 }
 
 .container{
+<<<<<<< HEAD
     width:96%;
     Margin: 0 auto;
+=======
+    width:95%;
+    margin;20px auto;
+>>>>>>> origin/master
     background-color:white;
     font-family:monda;sans-serif;
 }
@@ -53,7 +58,9 @@ h1{
     padding: 5px;
     
 }
+
 #columns .left-col {
+<<<<<<< HEAD
     padding:5px;
     height:300px;
     width:210px;
@@ -89,6 +96,45 @@ h1{
     background-color: white;
 }
 
+=======
+    float: left; 
+    width: 30%; 
+    height: 400px; 
+    outline: 0px solid blue;
+    margin: 10;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width : 30%    
+    padding:10px;
+    background-color: red;  
+
+    }
+
+
+#columns .mid-col {
+    float: middle; 
+    width: 30%; 
+    height: 400px; 
+    outline: 0px solid red;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#columns .right-col{
+    float: right; 
+    width: 30%; 
+    height: 400px; 
+    outline: 0px solid blue;
+    padding: 10px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+
+
+>>>>>>> origin/master
 
 nav{
     background-color: whitesmoke;
@@ -101,8 +147,13 @@ nav li{
     background-color: whitesmoke;
     display:inline;
 }
+<<<<<<< HEAD
 .contact{
     
+=======
+
+.contact {
+>>>>>>> origin/master
 }
 
 .footer {

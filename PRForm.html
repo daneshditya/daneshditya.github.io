@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formulir "SURAT IZIN MENGEMUDI" Kendaraan Bermotor</title>
+    <link rel="stylesheet" href="PRForm.css" type="text/css" />
+    <script> src="PRForm.js"</script>
+    </head>
+
+<body>
+    <h1>Formulir "SURAT IZIN MENGEMUDI" Kendaraan Bermotor</h1>
+    
+    <form name="Formsim" onSubmit=" validasiForm();">
+    <ul>
+        <li><label for="jenispermohonan">Jenis Permohonan:</label></li>
+        <li><select name="jenispermohonan">
+            <option selected="" value="default">(Pilih Jenis Permohonan)</option>
+            <option value="BAR">Baru</option>
+            <option value="PJN">Perpanjangan</option>
+            <option value="PKG">Peningkatan Golongan</option>
+            <option value="PRG">Penurunan Golongan</option> 
+            <option value="MTS">Mutasi</option>
+            <option value="HAR">Hilang atau Rusak</option>       
+            </select></li>
+        <li><label id="memilikisim">Pernah memiliki SIM sebelumnya : </label></li>
+        <li><input type="radio" name="memilikisim" value="tidak " /><span>Tidak pernah</span></li>
+        <li><input type="radio" name="memilikisim" value="pernah" /><span>Pernah</span></li>
+        <li><label for="simdimiliki">Jika pernah SIM yang pernah dimiliki:</label>
+        <li><select name="simdimiliki">
+            <option selected="" value="default">(SIM Golongan)</option>
+            <option value="A">A</option>
+            <option value="C">C</option>
+            <option value="B1">BI</option>
+            <option value="B2">BII</option>
+            <option value="AU">A umum</option>
+            <option value="B1U">BI umum</option>
+            <option value="B2U">BII umum</option>
+            <option value="D">D</option>
+            </select></li>
+        <li><label for="nomorsim">Nomor SIM:</label>
+        <li><input type="text" name="nomorsim" size="12"/></li>
+        <li><label for="simdiminta">Sebutkan golongan SIM yang diminta:</label>
+        <li><input type="checkbox" name="simdiminta" value="A"/><span>A</span></li>
+        <li><input type="checkbox" name="simdiminta" value="C"/><span>C</span></li>
+        <li><input type="checkbox" name="simdiminta" value="BI"/><span>BI</span></li>
+        <li><input type="checkbox" name="simdiminta" value="BII"/><span>B II</span></li>
+        <li><input type="checkbox" name="simdiminta" value="AU"/><span>A Umum</span></li>
+        <li><input type="checkbox" name="simdiminta" value="BIU"/><span>BI Umum</span></li>
+        <li><input type="checkbox" name="simdiminta" value="BIIU"/><span>BII Umum</span></li>
+        <li><input type="checkbox" name="simdiminta" value="D"/><span>D</span></li>
+            
+        <li><label for="namalengkap">Nama Lengkap:</label></li>
+        <li><input type="text" name="namalengkap" size="12" /></li>
+        <li><label id="jeniskelamin">Jenis Kelamin:</label></li>
+        <li><input type="radio" name="jeniskelamin" value="L" /><span>Laki-laki</span></li>
+        <li><input type="radio" name="jeniskelamin" value="P" /><span>Perempuan</span></li>
+        <li><label id="kewarganegaraan">Kewarganegaraan:</label></li>
+        <li><input type="radio" name="kewarganegaraan" value="WNI" /><span>WNI</span></li>
+        <li><input type="radio" name="kewarganegaraan" value="WNA" /><span>WNA</span></li>
+        
+        <li><label for="warganegaraasing">Jika Warga Negara Asing Negara Asal:</label>
+        <li><select name="warganegaraasing">
+            <option selected="" value="default">(Negara Asal)</option>
+            <option value="AF">Australia</option>
+            <option value="AL">Canada</option>
+            <option value="DZ">India</option>
+            <option value="AS">Russia</option>
+            <option value="AD">USA</option>
+            </select></li>
+        <li><label for="nomorpaspor">Nomor Paspor :</label> 
+            <input type="text" name="nomorpaspor" size="12"></li>
+        
+        <li><label for="tanggalterbit">Tanggal dikeluarkan:</label></li>
+       
+        <li><select name="tanggalterbit">
+            <option selected="" value="default">(Tanggal)</option>
+            <option value="1">1</option>
+	        <option value="2">2</option>
+	        <option value="3">3</option>
+	        <option value="4">4</option>
+	        <option value="5">5</option>
+	        <option value="6">6</option>
+	        <option value="7">7</option>
+	        <option value="8">8</option>
+	        <option value="9">9</option>
+	        <option value="10">10</option>
+	        <option value="11">11</option>
+	        <option value="12">12</option>
+	        <option value="13">13</option>
+	        <option value="14">14</option>
+	        <option value="15">15</option>
+	        <option value="16">16</option>
+	        <option value="17">17</option>
+	        <option value="18">18</option>
+	        <option value="19">19</option>
+	        <option value="20">20</option>
+	        <option value="21">21</option>
+	        <option value="22">22</option>
+	        <option value="23">23</option>
+	        <option value="24">24</option>
+	        <option value="25">25</option>
+	        <option value="26">26</option>
+	        <option value="27">27</option>
+	        <option value="28">28</option>
+	        <option value="29">29</option>
+	        <option value="30">30</option>
+	        <option value="31">31</option>          
+            </select></li>
+     
+        <li><select name="bulan">
+            <option selected="" value="default">(Bulan)</option>
+            <option value="January">January</option>
+	        <option value="Febuary">Febuary</option>
+	        <option value="March">March</option>
+	        <option value="April">April</option>
+	        <option value="May">May</option>
+	        <option value="June">June</option>
+	        <option value="July">July</option>
+	        <option value="August">August</option>
+	        <option value="September">September</option>
+	        <option value="October">October</option>
+	        <option value="November">November</option>
+	        <option value="December">December</option>
+            </select></li>
+        
+        <li><select name="tahun">
+            <option selected="" value="default">(Tahun)</option>    
+            <option value="2000">2000</option>
+	        <option value="1999">1999</option>
+	        <option value="1998">1998</option>
+	        <option value="1997">1997</option>
+	        <option value="1996">1996</option>
+	        <option value="1995">1995</option>
+	        <option value="1994">1994</option>    
+            <option value="1993">1993</option>
+	        <option value="1992">1992</option>
+	        <option value="1991">1991</option>
+	        <option value="1990">1990</option>
+	        <option value="1989">1989</option>
+	        <option value="1988">1988</option>
+	        <option value="1987">1987</option>
+	        <option value="1986">1986</option>
+	        <option value="1985">1985</option>
+	        <option value="1984">1984</option>
+	        <option value="1983">1983</option>
+	        <option value="1982">1982</option>
+	        <option value="1981">1981</option>
+	        <option value="1980">1980</option>
+	        <option value="1979">1979</option>
+	        <option value="1978">1978</option>
+	        <option value="1977">1977</option>
+	        <option value="1976">1976</option>
+	        <option value="1975">1975</option>
+	        <option value="1974">1974</option>
+	        <option value="1973">1973</option>
+	        <option value="1972">1972</option>
+	        <option value="1971">1971</option>
+	        <option value="1970">1970</option>
+	        <option value="1969">1969</option>
+	        <option value="1968">1968</option>
+	        <option value="1967">1967</option>
+	        <option value="1966">1966</option>
+	        <option value="1965">1965</option>
+	        <option value="1964">1964</option>
+	        <option value="1963">1963</option>
+	        <option value="1962">1962</option>
+	        <option value="1961">1961</option>
+	        <option value="1960">1960</option>
+	        <option value="1959">1959</option>
+	        <option value="1958">1958</option>
+	        <option value="1957">1957</option>
+            </select></li>
+       
+        <li><label for="Keterangan">Keterangan:</label></li>
+        <li><textarea name="keterangan" id="keterangan"></textarea></li>
+        <li><input type="submit" name="submit" value="Submit" /></li>
+        
+            
+        </ul>
+    </form>
+    
+    </body>
+
+
+</html>
