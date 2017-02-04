@@ -32,7 +32,12 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
-
+/* op nambahin ini buat font sacramento
+.navbar-wrapper.navbar-brand. {
+    font-family: Sacramento-Regular, cursive;
+    color: yellow;
+    font-size: 30 pt
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -46,7 +51,12 @@ body {
 .carousel-caption {
   z-index: 10;
 }
-
+/* op nambahin ini buat font sacramento
+.carousel-caption.h1 {
+  font-family: Sacramento-Regular, cursive;
+  color: yellow;
+    
+}
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
