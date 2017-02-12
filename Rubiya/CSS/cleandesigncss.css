@@ -1,0 +1,66 @@
+header{
+    margin-top: 700px;
+    margin-left: 220px;
+}
+/*An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.*/
+.under {
+    position: absolute;
+    margin-top: 1000;
+    margin-left:1550;
+    z-index: -1;
+ 
+}
+.over {
+    position: : absolute;
+    margin-top: -650px;
+    margin-left: 1080px;
+    z-index: -1;
+}
+
+/*An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.*/
+nav {
+    margin-top: 3000px;
+}
+ul {
+    list-style-type: ;
+    margin-left: 1130px;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+    display:inline;
+     
+}
+/* inside nav bar setting */
+li a {
+    font-family: 'Sansita', sans-serif;
+    color: orange;
+    font-size: 150px;
+    text-decoration: none;
+    width: 930px;
+    padding: 18px;
+    background-color: white;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: palegreen;
+}
+.up {
+    position: absolute;
+    margin-top: -80px;
+    z-index: 0;
+ 
+}
+.bottom {
+    position: : absolute;
+    margin-right: 100px;
+    margin-right: 100px;
+    z-index: -1;
+}        
+    
+
+
