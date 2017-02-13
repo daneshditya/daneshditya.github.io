@@ -1,18 +1,18 @@
 header{
-    margin-top: 700px;
-    margin-left: 220px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 .under {
     position: absolute;
-    margin-top: 1000;
-    margin-left:1550;
+    margin-top: 100;
+    margin-left:60;
     z-index: -1;
  
 }
 .over {
     position: : absolute;
-    margin-top: -650px;
-    margin-left: 1100px;
+    margin-top: -65px;
+    margin-left: 250px;
     z-index: -1;
 }
 nav {
