@@ -5,7 +5,7 @@ header{
 .under {
     position: absolute;
     margin-top: 100;
-    margin-left:60;
+    margin-left:120;
     z-index: -1;
  
 }
