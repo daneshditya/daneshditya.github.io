@@ -18,11 +18,11 @@ header{
     z-index: 0;
 }
 nav {
-    margin-top: 3000px;
+    margin-top: 375px;
 }
 ul {
     list-style-type: ;
-    margin-left: 1130px;
+    margin-left: 0px;
     padding: 10px;
     overflow: hidden;
     
@@ -36,10 +36,10 @@ li {
 /* inside nav bar setting */
 li a {
     font-family: 'Sansita', sans-serif;
-    color: orange;
-    font-size: 150px;
+    color: saddlebrown;
+    font-size: 25px;
     text-decoration: none;
-    width: 930px;
+    width: 93px;
     padding: 18px;
     background-color: white;
 }
@@ -50,12 +50,14 @@ li a:hover {
 }
 .up {
     position: absolute;
-    margin-top: -80px;
+    margin-left: 50px;
+    margin-top: 0px;
     z-index: 0;
 }
 .bottom {
     position: : absolute;
-    margin-right: 100px;
+    margin-top: 375;
+    margin-left: 0px;
     margin-right: 100px;
     z-index: -1;
 }        
@@ -64,11 +66,11 @@ body{
 }
 h1{
     font-family: 'Sansita', sans-serif;
-    font-size: 250px;
+    font-size: 75px;
     color: forestgreen;
-    margin-left: 1500px;
-    margin-right: 1500px;
-    padding: 100px;
+    float: right;
+    margin-right: 100px;
+    padding: 40px;
 }
 div.koleksi {
     margin: 200px;
