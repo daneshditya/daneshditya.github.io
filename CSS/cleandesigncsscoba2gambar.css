@@ -5,14 +5,14 @@ header{
 .under {
     position: absolute;
     margin-top: 150;
-    margin-left:300;
+    margin-left:250;
     z-index: -1;
  
 }
 .over {
     position: : absolute;
-    margin-top: -65px;
-    margin-left: 850px;
+    margin-top: -50px;
+    margin-left: 750px;
     z-index: -1;
 }
 nav {
