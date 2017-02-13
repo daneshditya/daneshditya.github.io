@@ -13,7 +13,8 @@ header{
     position: : absolute;
     margin-top: -30px;
     margin-left: 850px;
-    margin-right: 250px;
+    margin-right: 150px;
+    padding: 20px;
     z-index: 0;
 }
 nav {
