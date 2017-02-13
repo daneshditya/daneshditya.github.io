@@ -1,0 +1,92 @@
+header{
+    margin-top: 700px;
+    margin-left: 220px;
+}
+.under {
+    position: absolute;
+    margin-top: 1000;
+    margin-left:1550;
+    z-index: -1;
+ 
+}
+.over {
+    position: : absolute;
+    margin-top: -650px;
+    margin-left: 1100px;
+    z-index: -1;
+}
+nav {
+    margin-top: 3000px;
+}
+ul {
+    list-style-type: ;
+    margin-left: 1130px;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+    display:inline;
+     
+}
+/* inside nav bar setting */
+li a {
+    font-family: 'Sansita', sans-serif;
+    color: orange;
+    font-size: 150px;
+    text-decoration: none;
+    width: 930px;
+    padding: 18px;
+    background-color: white;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: palegreen;
+}
+.up {
+    position: absolute;
+    margin-top: -80px;
+    z-index: 0;
+}
+.bottom {
+    position: : absolute;
+    margin-right: 100px;
+    margin-right: 100px;
+    z-index: -1;
+}        
+body{
+       
+}
+h1{
+    font-family: 'Sansita', sans-serif;
+    font-size: 250px;
+    color: forestgreen;
+    margin-left: 1500px;
+    margin-right: 1500px;
+    padding: 100px;
+}
+div.koleksi {
+    margin: 200px;
+    border: 50px solid #ccc;
+    float: left;
+    width: 1800px;
+}
+
+div.koleksi:hover {
+    border: 100px solid #777;
+}
+
+div.koleksi koleksi {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 150px;
+    text-align: center;
+}
+    
+
