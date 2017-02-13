@@ -11,9 +11,9 @@ header{
 }
 .over {
     position: : absolute;
-    margin-top: -50px;
-    margin-left: 750px;
-    z-index: -1;
+    margin-top: -30px;
+    margin-left: 850px;
+    z-index: 0;
 }
 nav {
     margin-top: 3000px;
