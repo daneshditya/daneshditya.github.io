@@ -1,5 +1,5 @@
 header{
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 50px;
 }
 .under {
@@ -12,7 +12,7 @@ header{
 .over {
     position: : absolute;
     margin-top: -65px;
-    margin-left: 250px;
+    margin-left: 350px;
     z-index: -1;
 }
 nav {
