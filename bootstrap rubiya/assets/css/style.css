@@ -31,11 +31,11 @@
 body {
     text-rendering: optimizeLegibility; 
     -webkit-font-smoothing: antialiased; 
-	color:green; 
+	color:#442300; 
 	background: #fff;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1.6em;
-	font-weight: 700;
+	font-weight: 400;
 	text-shadow: none;
 	font-family: 'Lato', sans-serif;
 }
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 	line-height:1.1em;
 	color: darkorange;
 	font-weight:700;
-	margin-bottom:10px;
+	margin-bottom:30px;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -61,8 +61,7 @@ h2 {
 }
 
 h3 {
-  font-size: 26px;
-    
+  font-size: 40px;
          
 }
 
@@ -72,7 +71,7 @@ h4 {
 
 h5 {
   font-size: 18px;
-  color:black;    
+  color:forestgreen;    
 }
 
 h6 {
@@ -137,11 +136,11 @@ blockquote {
 }
 
 .container{
-	padding: 0 20px 0 20px;
+	padding: 5px 20px 0 20px;
 }
 
 .row{
-	margin-bottom:40px;
+	margin-bottom:0px;
 }
 
 .row .row, .row-fluid .row{
@@ -162,7 +161,7 @@ blockquote {
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	line-height:1.5em;
-	color: saddlebrown;
+	color:#442300;
 	font-weight:400;
 }
 
@@ -174,7 +173,7 @@ section.dark .heading p {
 /* sub heading */
 
 .sub-heading {
-	margin-top: 0px;
+	margin-bottom: 100px;
 	text-align:center;
 	width:100%;
 }
@@ -182,8 +181,8 @@ section.dark .heading p {
 .sub-heading h3{
 	text-transform:uppercase;
     color: darkorange;
-	padding:0;
-	margin:0px 0 20px 0;
+	padding:10px;
+	margin:0px 0 20px 0px;
 	font-size:40px;
 	font-weight:700;
 	text-align:center;
@@ -311,10 +310,10 @@ header{
 ======================================== */
 section#intro{
 	position:relative;
-	width:90%;
+	width:100%;
 	height:auto;
 	margin-top:50px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 section#intro{
@@ -367,6 +366,7 @@ figure.logorubiya{
 ======================================== */
 .team-box {
 	background: white;
+    padding-top: 50px;
     padding-bottom: 10px;
 }
 
@@ -943,14 +943,15 @@ div.cform-response-output {
 footer{
 	float:left;
 	width:100%;
-	background:#212121;
-	color:#fff;
+	background:#442300;
+    opacity: .8;
+	color:darkorange;
 	margin:0;
-	padding:40px 0 0 0;
+	padding:0px 0 0 0;
 }
 
 footer .verybottom {
-	padding:30px 0 10px 0;
+	padding:0px 0 10px 0;
 }
 
 .tabbable{
